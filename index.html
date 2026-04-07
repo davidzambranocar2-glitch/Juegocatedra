@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crónica del campo de juego: Escaping the Prision</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <h1>Crónica del campo de juego</h1>
+    <p><strong>Mateo Rincón</strong> – Futbolista de 18 años, barrio vulnerable, Colombia.</p>
+
+    <div id="stats">
+      <p>Salud mental: <span id="mental">70</span>/100</p>
+      <p>Reputación: <span id="reputation">60</span>/100</p>
+      <p>Seguridad: <span id="security">60</span>/100</p>
+      <p>Red de apoyo: <span id="support">50</span>/100</p>
+    </div>
+
+    <div id="story">
+      <h2 id="title">Nivel 1 – El origen del sueño</h2>
+      <p id="text">
+        Mateo tiene 16 años y juega en el equipo del barrio. Es ágil, rápido y tiene potencial. Un entrenador local le dice que puede ir lejos si se esfuerza, pero también advierte que hay adultos que “regalan zapatos y camisetas” solo para luego pedir favores a cambio.
+      </p>
+      <div id="options">
+        <button onclick="chooseOption(1, 1)">Acepto el apoyo de quien me lo ofrezca, sin importar quién sea.</button>
+        <button onclick="chooseOption(1, 2)">Solo acepto ayuda de entrenadores y organizaciones formales.</button>
+        <button onclick="chooseOption(1, 3)">Me aíslo y me niego a cualquier patrocinio, incluso si me falta todo.</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
